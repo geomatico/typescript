@@ -6,9 +6,9 @@ import Stack from '@mui/material/Stack';
 
 import BaseMapList from '@geomatico/geocomponents/BaseMapList';
 
-import SectionTitle from './SectionTitle';
 import Logo_geomatico from '../img/Logo_geomatico.png';
 import {MAPSTYLES} from '../config';
+import SectionTitle from './SectionTitle.tsx';
 
 const SidePanelContent = ({mapStyle, onMapStyleChanged}) => {
   return <Stack sx={{height: '100%'}}>
