@@ -7,7 +7,13 @@ import Typography from '@mui/material/Typography';
 
 import {useTranslation} from 'react-i18next';
 
-const SectionTitle = ({titleKey}) => {
+type props = {
+  titleKey: string,
+};
+
+const cosa: {pepe: number} = {cosa: 11};
+
+const SectionTitle = ({titleKey}: props) => {
   const {t} = useTranslation();
   return (
     <Box mt={2} mb={1} >
